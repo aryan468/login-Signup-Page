@@ -1,0 +1,108 @@
+
+.user-details-container {
+    margin: 50px auto;
+    padding: 30px;
+    border: 10px solid #af40ad;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-details-container h1,
+  .user-details-container h2,
+  .user-details-container h3 {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Container */
+  .button-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .button-container button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-container button:last-child {
+    margin-right: 0;
+  }
+  
+  /* Text Input Container */
+  .text-input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .text-input-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Stored Text Container */
+  .stored-text-container {
+    width: 100%;
+  }
+  
+  .stored-text-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .stored-text-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Remove Text Button and Clear All Button */
+  .remove-text-button,
+  .clear-all-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .remove-text-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .clear-all-button {
+    background-color: #ff9800;
+    color: white;
+    align-self: flex-end;
+  }
+  
+  /* Hover Effects */
+  .remove-text-button:hover,
+  .clear-all-button:hover,
+  .button-container button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Login Form */
+  .auth-inner {
+    width: 850px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all 0.3s;
+  }
+  
